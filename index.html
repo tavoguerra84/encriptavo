@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador</title>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+        <img class="logoImg" src="img/logo2.jpg">
+        <h1 class="title">Encriptador de texto</h1>
+    </div>
+    <div class="left">
+        <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+    </div>
+    <div class="right">
+        <img src="img/muneco.jpg" id="imgDer">
+        <h1 id="texto">Ningún mensaje fue encontrado</h1>
+        <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar.</textarea>
+        <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+    </div>
+    <div class="left-button">
+        <p>Solo minúsculas y sin acentos</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+    </div>
+  </div>
+  <footer>
+    <p class="By">By Gustavo Guerra Ospina</p>
+  </footer>
+</body>
+</html>
